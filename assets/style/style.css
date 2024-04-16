@@ -1,11 +1,30 @@
 html, body {
-  height: 100%;
+  background-color: gray;
+  font-family: "Montserrat", sans-serif;
 }
-
-body {
-  color: aqua;
+html .bg-adan, body .bg-adan {
+  background-color: #3e608c;
+  color: #e9f1f2;
+}
+html .center, body .center {
+  margin-top: 23%;
+}
+html .bg-form, body .bg-form {
+  background-color: #e9f1f2;
+}
+html form .btn-login, body form .btn-login {
+  background-color: #3e608c;
+  border: none;
+  transition: 0.5s;
+}
+html form .btn-login:hover, body form .btn-login:hover {
+  transition: 0.5s;
+  background-color: #4886d9;
+}
+html form .input, body form .input {
+  padding: 5px;
 }
 
 .login-container {
-  margin-top: 100px;
+  margin-top: 10%;
 }/*# sourceMappingURL=style.css.map */

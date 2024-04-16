@@ -1,10 +1,34 @@
+@import '../abstract/variaveis';
 
 html, body {
-    height: 100%;
+    background-color: gray;
+    font-family: $primary-font;
+    .bg-adan {
+        background-color: $tertiary-color;
+        color: $primary-font-color;
+    }
+    .center {
+        margin-top: 23%;
+    }
+    .bg-form {
+        background-color: $primary-font-color;
+    }
+    form {
+        .btn-login {
+            background-color: $tertiary-color;
+            border: none;
+            transition: .5s;
+            &:hover {
+                transition: .5s;
+                background-color: $secondary-color;
+            }
+        }
+        .input {
+            padding: 5px;
+        }
+    }
 }
-body {
-    color: aqua;
-}
+
 .login-container {
-    margin-top: 100px;
+    margin-top: 10%;
 }
