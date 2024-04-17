@@ -1,7 +1,10 @@
 @import '../abstract/variaveis';
 
 html, body {
-    background-color: gray;
+    background-color: rgb(112, 112, 112);
+    @media (max-width: 576px) { 
+        background-color: $tertiary-color;
+    }
     font-family: $primary-font;
     .bg-adan {
         background-color: $tertiary-color;
@@ -9,6 +12,11 @@ html, body {
     }
     .center {
         margin-top: 23%;
+    }
+    .media {
+        @media (max-width: 576px) { 
+            border-radius: 15px;
+        }
     }
     .bg-form {
         background-color: $primary-font-color;

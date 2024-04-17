@@ -1,6 +1,11 @@
 html, body {
-  background-color: gray;
-  font-family: "Montserrat", sans-serif;
+  background-color: rgb(112, 112, 112);
+  font-family: "Work Sans", sans-serif;
+}
+@media (max-width: 576px) {
+  html, body {
+    background-color: #3e608c;
+  }
 }
 html .bg-adan, body .bg-adan {
   background-color: #3e608c;
@@ -8,6 +13,11 @@ html .bg-adan, body .bg-adan {
 }
 html .center, body .center {
   margin-top: 23%;
+}
+@media (max-width: 576px) {
+  html .media, body .media {
+    border-radius: 15px;
+  }
 }
 html .bg-form, body .bg-form {
   background-color: #e9f1f2;
