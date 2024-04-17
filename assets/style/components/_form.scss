@@ -22,6 +22,23 @@ html, body {
         background-color: $primary-font-color;
     }
     form {
+        .input {
+            position: relative;
+            label {
+                margin: 4px 0 0 4px;
+            }
+            i {
+                position: absolute;
+                top: 1.5rem;
+                right: 1.3rem;
+                font-size: 1.1rem;
+                visibility: hidden;
+            }
+            .visib {
+                visibility: visible;
+            }
+        }
+
         .btn-login {
             background-color: $tertiary-color;
             border: none;

@@ -22,6 +22,22 @@ html .center, body .center {
 html .bg-form, body .bg-form {
   background-color: #e9f1f2;
 }
+html form .input, body form .input {
+  position: relative;
+}
+html form .input label, body form .input label {
+  margin: 4px 0 0 4px;
+}
+html form .input i, body form .input i {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.3rem;
+  font-size: 1.1rem;
+  visibility: hidden;
+}
+html form .input .visib, body form .input .visib {
+  visibility: visible;
+}
 html form .btn-login, body form .btn-login {
   background-color: #3e608c;
   border: none;
